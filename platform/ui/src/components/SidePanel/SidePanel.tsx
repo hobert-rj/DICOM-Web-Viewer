@@ -147,6 +147,21 @@ const SidePanel = ({
     };
   }, [tabs, hasBeenOpened, panelService, updateActiveTabIndex]);
 
+  useEffect(() => {
+    const handleWindowSize = () => {
+      const isMobile = window.innerWidth <= 768;
+      if (panelOpen && isMobile) {
+        updatePanelOpen(() => false);
+      }
+    };
+    handleWindowSize();
+
+    window.addEventListener('resize', handleWindowSize);
+    return () => {
+      window.removeEventListener('resize', handleWindowSize);
+    };
+  }, []);
+
   const getCloseStateComponent = () => {
     const _childComponents = Array.isArray(tabs) ? tabs : [tabs];
     return (
