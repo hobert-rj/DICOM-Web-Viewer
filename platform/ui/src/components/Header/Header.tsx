@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames';
 import { NavBar, Svg, Icon, IconButton, Dropdown } from '../';
+import './style.css';
 
 function Header({
   children,
@@ -29,7 +30,7 @@ function Header({
       isSticky={isSticky}
     >
       <div className="flex justify-between flex-1">
-        <div className="flex items-center">
+        <div className="flex items-center flex-none">
           {/* // TODO: Should preserve filter/sort
               // Either injected service? Or context (like react router's `useLocation`?) */}
           <div
@@ -42,18 +43,12 @@ function Header({
             {isReturnEnabled && (
               <Icon name="chevron-left" className="w-8 text-primary-active" />
             )}
-            <div className="ml-4">
-              {WhiteLabeling?.createLogoComponentFn?.(React, props) || (
-                <Svg name="logo-ohif" />
-              )}
-            </div>
           </div>
         </div>
-        <div className="flex items-center">{children}</div>
-        <div className="flex items-center">
-          <span className="mr-3 text-lg text-common-light">
-            {t('INVESTIGATIONAL USE ONLY')}
-          </span>
+        <div className="flex items-center flex-1 min-w-0 w-0 custom-scrollbar">
+          {children}
+        </div>
+        <div className="flex items-center flex-none">
           <Dropdown id="options" showDropdownIcon={false} list={menuOptions}>
             <IconButton
               id={'options-settings-icon'}
