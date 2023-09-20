@@ -1,59 +1,10 @@
 {
   "studies": [
-  {
-      "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.29880613728863345324697563017",
-      "StudyDate": "20000101",
-      "StudyTime": "",
-      "PatientName": "",
-      "PatientID": "LIDC-IDRI-0001",
-      "AccessionNumber": "",
-      "PatientAge": "",
-      "PatientSex": "",
-      "series": [
-        {
-          "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192",
-          "SeriesNumber": 3000566,
-          "Modality": "CT",
-          "SliceThickness": 2.5,
-          "instances": [
-            {
-              "metadata": {
-                "Columns": 2334,
-                "Rows": 1692,
-                "InstanceNumber": 1,
-                "SOPClassUID": "1.2.840.10008.5.1.4.1.1.1.1",
-                "PhotometricInterpretation": "MONOCHROME2",
-                "BitsAllocated": 16,
-                "BitsStored": 16,
-                "PixelRepresentation": 0,
-                "SamplesPerPixel": 1,
-                "PixelSpacing": [0.148, 0.148],
-                "HighBit": 15,
-                "ImageOrientationPatient": [1, 0, 0, 0, 1, 0],
-                "ImagePositionPatient": [-166, -171.699997, -10],
-                "FrameOfReferenceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229925374658226729607867499499",
-                "ImageType": ["ORIGINAL", "PRIMARY", "AXIAL"],
-                "Modality": "CT",
-                "SOPInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.262721256650280657946440242654",
-                "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192",
-                "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178",
-                "WindowCenter": 32768,
-                "WindowWidth": 65536,
-                "SeriesDate": "20000101"
-              },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-0000.dcm"
-            }
-          ]
-        }
-      ],
-      "NumInstances": 1,
-      "Modalities": "CT"
-    },
     {
       "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178",
       "StudyDate": "20000101",
       "StudyTime": "",
-      "PatientName": "",
+      "PatientName": "Doe^Anonymized",
       "PatientID": "LIDC-IDRI-0001",
       "AccessionNumber": "",
       "PatientAge": "",
@@ -90,7 +41,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-001.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-001.dcm"
             },
             {
               "metadata": {
@@ -117,7 +68,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-002.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-002.dcm"
             },
             {
               "metadata": {
@@ -144,7 +95,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-003.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-003.dcm"
             },
             {
               "metadata": {
@@ -171,7 +122,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-004.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-004.dcm"
             },
             {
               "metadata": {
@@ -198,7 +149,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-005.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-005.dcm"
             },
             {
               "metadata": {
@@ -225,7 +176,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-006.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-006.dcm"
             },
             {
               "metadata": {
@@ -252,7 +203,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-007.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-007.dcm"
             },
             {
               "metadata": {
@@ -279,7 +230,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-008.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-008.dcm"
             },
             {
               "metadata": {
@@ -306,7 +257,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-009.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-009.dcm"
             },
             {
               "metadata": {
@@ -333,7 +284,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-010.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-010.dcm"
             },
             {
               "metadata": {
@@ -360,7 +311,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-011.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-011.dcm"
             },
             {
               "metadata": {
@@ -387,7 +338,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-012.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-012.dcm"
             },
             {
               "metadata": {
@@ -414,7 +365,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-013.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-013.dcm"
             },
             {
               "metadata": {
@@ -441,7 +392,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-014.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-014.dcm"
             },
             {
               "metadata": {
@@ -468,7 +419,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-015.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-015.dcm"
             },
             {
               "metadata": {
@@ -495,7 +446,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-016.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-016.dcm"
             },
             {
               "metadata": {
@@ -522,7 +473,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-017.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-017.dcm"
             },
             {
               "metadata": {
@@ -549,7 +500,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-018.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-018.dcm"
             },
             {
               "metadata": {
@@ -576,7 +527,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-019.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-019.dcm"
             },
             {
               "metadata": {
@@ -603,7 +554,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-020.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-020.dcm"
             },
             {
               "metadata": {
@@ -630,7 +581,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-021.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-021.dcm"
             },
             {
               "metadata": {
@@ -657,7 +608,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-022.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-022.dcm"
             },
             {
               "metadata": {
@@ -684,7 +635,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-023.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-023.dcm"
             },
             {
               "metadata": {
@@ -711,7 +662,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-024.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-024.dcm"
             },
             {
               "metadata": {
@@ -738,7 +689,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-025.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-025.dcm"
             },
             {
               "metadata": {
@@ -765,7 +716,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-026.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-026.dcm"
             },
             {
               "metadata": {
@@ -792,7 +743,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-027.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-027.dcm"
             },
             {
               "metadata": {
@@ -819,7 +770,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-028.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-028.dcm"
             },
             {
               "metadata": {
@@ -846,7 +797,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-029.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-029.dcm"
             },
             {
               "metadata": {
@@ -873,7 +824,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-030.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-030.dcm"
             },
             {
               "metadata": {
@@ -900,7 +851,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-031.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-031.dcm"
             },
             {
               "metadata": {
@@ -927,7 +878,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-032.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-032.dcm"
             },
             {
               "metadata": {
@@ -954,7 +905,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-033.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-033.dcm"
             },
             {
               "metadata": {
@@ -981,7 +932,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-034.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-034.dcm"
             },
             {
               "metadata": {
@@ -1008,7 +959,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-035.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-035.dcm"
             },
             {
               "metadata": {
@@ -1035,7 +986,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-036.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-036.dcm"
             },
             {
               "metadata": {
@@ -1062,7 +1013,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-037.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-037.dcm"
             },
             {
               "metadata": {
@@ -1089,7 +1040,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-038.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-038.dcm"
             },
             {
               "metadata": {
@@ -1116,7 +1067,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-039.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-039.dcm"
             },
             {
               "metadata": {
@@ -1143,7 +1094,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-040.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-040.dcm"
             },
             {
               "metadata": {
@@ -1170,7 +1121,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-041.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-041.dcm"
             },
             {
               "metadata": {
@@ -1197,7 +1148,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-042.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-042.dcm"
             },
             {
               "metadata": {
@@ -1224,7 +1175,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-043.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-043.dcm"
             },
             {
               "metadata": {
@@ -1251,7 +1202,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-044.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-044.dcm"
             },
             {
               "metadata": {
@@ -1278,7 +1229,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-045.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-045.dcm"
             },
             {
               "metadata": {
@@ -1305,7 +1256,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-046.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-046.dcm"
             },
             {
               "metadata": {
@@ -1332,7 +1283,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-047.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-047.dcm"
             },
             {
               "metadata": {
@@ -1359,7 +1310,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-048.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-048.dcm"
             },
             {
               "metadata": {
@@ -1386,7 +1337,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-049.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-049.dcm"
             },
             {
               "metadata": {
@@ -1413,7 +1364,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-050.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-050.dcm"
             },
             {
               "metadata": {
@@ -1440,7 +1391,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-051.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-051.dcm"
             },
             {
               "metadata": {
@@ -1467,7 +1418,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-052.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-052.dcm"
             },
             {
               "metadata": {
@@ -1494,7 +1445,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-053.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-053.dcm"
             },
             {
               "metadata": {
@@ -1521,7 +1472,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-054.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-054.dcm"
             },
             {
               "metadata": {
@@ -1548,7 +1499,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-055.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-055.dcm"
             },
             {
               "metadata": {
@@ -1575,7 +1526,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-056.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-056.dcm"
             },
             {
               "metadata": {
@@ -1602,7 +1553,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-057.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-057.dcm"
             },
             {
               "metadata": {
@@ -1629,7 +1580,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-058.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-058.dcm"
             },
             {
               "metadata": {
@@ -1656,7 +1607,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-059.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-059.dcm"
             },
             {
               "metadata": {
@@ -1683,7 +1634,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-060.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-060.dcm"
             },
             {
               "metadata": {
@@ -1710,7 +1661,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-061.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-061.dcm"
             },
             {
               "metadata": {
@@ -1737,7 +1688,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-062.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-062.dcm"
             },
             {
               "metadata": {
@@ -1764,7 +1715,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-063.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-063.dcm"
             },
             {
               "metadata": {
@@ -1791,7 +1742,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-064.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-064.dcm"
             },
             {
               "metadata": {
@@ -1818,7 +1769,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-065.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-065.dcm"
             },
             {
               "metadata": {
@@ -1845,7 +1796,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-066.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-066.dcm"
             },
             {
               "metadata": {
@@ -1872,7 +1823,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-067.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-067.dcm"
             },
             {
               "metadata": {
@@ -1899,7 +1850,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-068.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-068.dcm"
             },
             {
               "metadata": {
@@ -1926,7 +1877,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-069.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-069.dcm"
             },
             {
               "metadata": {
@@ -1953,7 +1904,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-070.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-070.dcm"
             },
             {
               "metadata": {
@@ -1980,7 +1931,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-071.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-071.dcm"
             },
             {
               "metadata": {
@@ -2007,7 +1958,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-072.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-072.dcm"
             },
             {
               "metadata": {
@@ -2034,7 +1985,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-073.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-073.dcm"
             },
             {
               "metadata": {
@@ -2061,7 +2012,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-074.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-074.dcm"
             },
             {
               "metadata": {
@@ -2088,7 +2039,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-075.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-075.dcm"
             },
             {
               "metadata": {
@@ -2115,7 +2066,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-076.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-076.dcm"
             },
             {
               "metadata": {
@@ -2142,7 +2093,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-077.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-077.dcm"
             },
             {
               "metadata": {
@@ -2169,7 +2120,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-078.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-078.dcm"
             },
             {
               "metadata": {
@@ -2196,7 +2147,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-079.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-079.dcm"
             },
             {
               "metadata": {
@@ -2223,7 +2174,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-080.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-080.dcm"
             },
             {
               "metadata": {
@@ -2250,7 +2201,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-081.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-081.dcm"
             },
             {
               "metadata": {
@@ -2277,7 +2228,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-082.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-082.dcm"
             },
             {
               "metadata": {
@@ -2304,7 +2255,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-083.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-083.dcm"
             },
             {
               "metadata": {
@@ -2331,7 +2282,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-084.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-084.dcm"
             },
             {
               "metadata": {
@@ -2358,7 +2309,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-085.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-085.dcm"
             },
             {
               "metadata": {
@@ -2385,7 +2336,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-086.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-086.dcm"
             },
             {
               "metadata": {
@@ -2412,7 +2363,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-087.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-087.dcm"
             },
             {
               "metadata": {
@@ -2439,7 +2390,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-088.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-088.dcm"
             },
             {
               "metadata": {
@@ -2466,7 +2417,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-089.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-089.dcm"
             },
             {
               "metadata": {
@@ -2493,7 +2444,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-090.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-090.dcm"
             },
             {
               "metadata": {
@@ -2520,7 +2471,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-091.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-091.dcm"
             },
             {
               "metadata": {
@@ -2547,7 +2498,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-092.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-092.dcm"
             },
             {
               "metadata": {
@@ -2574,7 +2525,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-093.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-093.dcm"
             },
             {
               "metadata": {
@@ -2601,7 +2552,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-094.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-094.dcm"
             },
             {
               "metadata": {
@@ -2628,7 +2579,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-095.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-095.dcm"
             },
             {
               "metadata": {
@@ -2655,7 +2606,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-096.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-096.dcm"
             },
             {
               "metadata": {
@@ -2682,7 +2633,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-097.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-097.dcm"
             },
             {
               "metadata": {
@@ -2709,7 +2660,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-098.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-098.dcm"
             },
             {
               "metadata": {
@@ -2736,7 +2687,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-099.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-099.dcm"
             },
             {
               "metadata": {
@@ -2763,7 +2714,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-100.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-100.dcm"
             },
             {
               "metadata": {
@@ -2790,7 +2741,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-101.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-101.dcm"
             },
             {
               "metadata": {
@@ -2817,7 +2768,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-102.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-102.dcm"
             },
             {
               "metadata": {
@@ -2844,7 +2795,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-103.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-103.dcm"
             },
             {
               "metadata": {
@@ -2871,7 +2822,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-104.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-104.dcm"
             },
             {
               "metadata": {
@@ -2898,7 +2849,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-105.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-105.dcm"
             },
             {
               "metadata": {
@@ -2925,7 +2876,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-106.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-106.dcm"
             },
             {
               "metadata": {
@@ -2952,7 +2903,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-107.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-107.dcm"
             },
             {
               "metadata": {
@@ -2979,7 +2930,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-108.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-108.dcm"
             },
             {
               "metadata": {
@@ -3006,7 +2957,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-109.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-109.dcm"
             },
             {
               "metadata": {
@@ -3033,7 +2984,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-110.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-110.dcm"
             },
             {
               "metadata": {
@@ -3060,7 +3011,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-111.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-111.dcm"
             },
             {
               "metadata": {
@@ -3087,7 +3038,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-112.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-112.dcm"
             },
             {
               "metadata": {
@@ -3114,7 +3065,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-113.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-113.dcm"
             },
             {
               "metadata": {
@@ -3141,7 +3092,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-114.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-114.dcm"
             },
             {
               "metadata": {
@@ -3168,7 +3119,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-115.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-115.dcm"
             },
             {
               "metadata": {
@@ -3195,7 +3146,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-116.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-116.dcm"
             },
             {
               "metadata": {
@@ -3222,7 +3173,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-117.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-117.dcm"
             },
             {
               "metadata": {
@@ -3249,7 +3200,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-118.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-118.dcm"
             },
             {
               "metadata": {
@@ -3276,7 +3227,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-119.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-119.dcm"
             },
             {
               "metadata": {
@@ -3303,7 +3254,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-120.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-120.dcm"
             },
             {
               "metadata": {
@@ -3330,7 +3281,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-121.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-121.dcm"
             },
             {
               "metadata": {
@@ -3357,7 +3308,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-122.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-122.dcm"
             },
             {
               "metadata": {
@@ -3384,7 +3335,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-123.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-123.dcm"
             },
             {
               "metadata": {
@@ -3411,7 +3362,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-124.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-124.dcm"
             },
             {
               "metadata": {
@@ -3438,7 +3389,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-125.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-125.dcm"
             },
             {
               "metadata": {
@@ -3465,7 +3416,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-126.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-126.dcm"
             },
             {
               "metadata": {
@@ -3492,7 +3443,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-127.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-127.dcm"
             },
             {
               "metadata": {
@@ -3519,7 +3470,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-128.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-128.dcm"
             },
             {
               "metadata": {
@@ -3546,7 +3497,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-129.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-129.dcm"
             },
             {
               "metadata": {
@@ -3573,7 +3524,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-130.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-130.dcm"
             },
             {
               "metadata": {
@@ -3600,7 +3551,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-131.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-131.dcm"
             },
             {
               "metadata": {
@@ -3627,7 +3578,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-132.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-132.dcm"
             },
             {
               "metadata": {
@@ -3654,7 +3605,7 @@
                 "WindowWidth": 1600,
                 "SeriesDate": "20000101"
               },
-              "url": "dicomweb:http://localhost:3000/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-133.dcm"
+              "url": "dicomweb:https://ohif-dicom-json-example.s3.amazonaws.com/LIDC-IDRI-0001/01-01-2000-30178/3000566.000000-03192/1-133.dcm"
             }
           ]
         }
