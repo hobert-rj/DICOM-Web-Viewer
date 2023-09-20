@@ -6,6 +6,7 @@ import { ErrorBoundary } from '@ohif/ui';
 import DataSourceWrapper from './DataSourceWrapper';
 import WorkList from './WorkList';
 import Local from './Local';
+import Single from './Single';
 import Debug from './Debug';
 import NotFound from './NotFound';
 import buildModeRoutes from './buildModeRoutes';
@@ -24,6 +25,10 @@ const bakedInRoutes = [
   {
     path: '/localbasic',
     children: Local.bind(null, { modePath: 'viewer/dicomlocal' }),
+  },
+  {
+    path: '/single',
+    children: Single.bind(null, { modePath: '' }),
   },
 ];
 
