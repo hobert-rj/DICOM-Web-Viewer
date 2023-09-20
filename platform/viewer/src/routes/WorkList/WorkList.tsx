@@ -40,6 +40,9 @@ const seriesInStudiesMap = new Map();
  * TODO:
  * - debounce `setFilterValues` (150ms?)
  */
+
+let backTimeout = setTimeout(() => {});
+
 function WorkList({
   data: studies,
   dataTotal: studiesTotal,
@@ -111,6 +114,12 @@ function WorkList({
   // ~ Rows & Studies
   const [expandedRows, setExpandedRows] = useState([]);
   const [studiesWithSeriesData, setStudiesWithSeriesData] = useState([]);
+  clearTimeout(backTimeout);
+  backTimeout = setTimeout(() => {
+    if (!studiesTotal) {
+      window.history.back();
+    }
+  }, 200);
   const numOfStudies = studiesTotal;
 
   const setFilterValues = val => {

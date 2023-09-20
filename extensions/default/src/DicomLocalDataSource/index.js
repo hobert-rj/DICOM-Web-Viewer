@@ -55,6 +55,9 @@ function createDicomLocalApi(dicomLocalConfig) {
       // Put SRs at the end of series list to make sure images are loaded first
       StudyInstanceUIDsAsArray.forEach(StudyInstanceUID => {
         const study = DicomMetadataStore.getStudy(StudyInstanceUID);
+        if (study === undefined) {
+          window.history.back();
+        }
         study.series = study.series.sort(customSort);
       });
 
