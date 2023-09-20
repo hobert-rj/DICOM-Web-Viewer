@@ -37,7 +37,7 @@ window.config = {
   // },
   dataSources: [
     {
-      friendlyName: 'dcmjs DICOMWeb Server',
+      friendlyName: 'MIX DICOMWeb Server',
       namespace: '@ohif/extension-default.dataSourcesModule.dicomweb',
       sourceName: 'dicomweb',
       configuration: {
